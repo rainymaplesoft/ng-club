@@ -12,22 +12,24 @@ import {
   HttpEventType,
   HttpResponse
 } from '@angular/common/http';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/forkJoin';
-import 'rxjs/add/operator/debounceTime';
-import 'rxjs/add/operator/distinctUntilChanged';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/operator/finally';
-import 'rxjs/add/operator/startWith';
-import 'rxjs/add/observable/from';
-import 'rxjs/add/observable/fromEvent';
-import 'rxjs/add/operator/concatMap';
-import { StorageService } from 'app/Module_Core/services/storage.service';
+import { map, filter, catchError, mergeMap, finalize } from 'rxjs/operators';
+// import 'rxjs/add/observable/forkJoin';
+// import 'rxjs/add/operator/debounceTime';
+// import 'rxjs/add/operator/distinctUntilChanged';
+// import 'rxjs/add/operator/do';
+// import 'rxjs/add/operator/map';
+// import 'rxjs/add/operator/catch';
+// import 'rxjs/add/operator/finally';
+// import 'rxjs/add/operator/startWith';
+// import 'rxjs/add/observable/from';
+// import 'rxjs/add/observable/fromEvent';
+// import 'rxjs/add/operator/concatMap';
+// import { StorageService } from 'app/Module_Core/services/storage.service';
 import { saveAs as importedSaveAs } from 'file-saver';
 // import { Subject } from 'rxjs/Subject';
 import { UtilService } from './util.service';
+import { StorageService } from '.';
+import { Observable, forkJoin } from 'rxjs';
 
 //#region meta data
 enum HttpRequestType {
@@ -92,25 +94,31 @@ export class HttpService {
 
   //#region public functions
 
-  putData<T>(url: string, jsonModel: any): Observable<Response> {
+  putData<T>(url: string, jsonModel: any): Observable<T> {
     return this.httpClient
-      .put(url, jsonModel, this.jsonRequestOptions(HttpRequestType.Put))
-      .catch((error, caugth) => this.handleErrors(error, caugth, url))
-      .finally(this.handleFinally);
+      .put<T>(url, jsonModel, this.jsonRequestOptions(HttpRequestType.Put))
+      .pipe(
+        catchError((error, caugth) => this.handleErrors(error, caugth, url)),
+        finalize(this.handleFinally)
+      );
   }
 
   postData<T>(url: string, jsonModel: any): Observable<T> {
     return this.httpClient
-      .post(url, jsonModel, this.jsonRequestOptions(HttpRequestType.Post))
-      .catch((error, caugth) => this.handleErrors(error, caugth, url))
-      .finally(this.handleFinally);
+      .post<T>(url, jsonModel, this.jsonRequestOptions(HttpRequestType.Post))
+      .pipe(
+        catchError((error, caugth) => this.handleErrors(error, caugth, url)),
+        finalize(this.handleFinally)
+      );
   }
 
   getData<T>(url: string): Observable<T> {
     return this.httpClient
-      .get(url, this.jsonRequestOptions(HttpRequestType.Get))
-      .catch((error, caugth) => this.handleErrors(error, caugth, url))
-      .finally(this.handleFinally);
+      .get<T>(url, this.jsonRequestOptions(HttpRequestType.Get))
+      .pipe(
+        catchError((error, caugth) => this.handleErrors(error, caugth, url)),
+        finalize(this.handleFinally)
+      );
   }
 
   getString(url: string): Observable<string> {
@@ -118,8 +126,10 @@ export class HttpService {
     options.responseType = 'text';
     return this.httpClient
       .get(url, options)
-      .catch((error, caugth) => this.handleErrors(error, caugth, url))
-      .finally(this.handleFinally);
+      .pipe(
+        catchError((error, caugth) => this.handleErrors(error, caugth, url)),
+        finalize(this.handleFinally)
+      );
   }
 
   uploadFile(url: string, file: File, callBack: Function) {
@@ -141,13 +151,15 @@ export class HttpService {
   downloadFile(url: string, filename = null) {
     const request = this.httpClient
       .get(url, this.blobRequestOptions(HttpRequestType.Get))
-      .catch((error, caugth) => this.handleErrors(error, caugth, url))
-      .finally(this.handleFinally);
-    request.subscribe(blob => importedSaveAs(blob, filename));
+      .pipe(
+        catchError((error, caugth) => this.handleErrors(error, caugth, url)),
+        finalize(this.handleFinally)
+      );
+    request.subscribe((blob: Blob) => importedSaveAs(blob, filename));
   }
 
   getAll(urls: string[]) {
-    return Observable.forkJoin(this.getForJoinArray(urls));
+    return forkJoin(this.getForJoinArray(urls));
   }
 
   //#endregion
@@ -159,7 +171,10 @@ export class HttpService {
     for (const url of urls) {
       const req = this.httpClient
         .get(url, this.jsonRequestOptions(HttpRequestType.Get))
-        .catch((error, caugth) => this.handleErrors(error, caugth, url));
+        .pipe(
+          catchError((error, caugth) => this.handleErrors(error, caugth, url)),
+          finalize(this.handleFinally)
+        );
       obServableRequests.push(req);
     }
     return obServableRequests;
@@ -175,6 +190,8 @@ export class HttpService {
 
   private handleFinally = () => {
     // any final processes
+    const a = 1;
+    // tslint:disable-next-line:semicolon
   };
 
   private jsonRequestOptions(httpRequestType: HttpRequestType): JsonOptionArgs {
