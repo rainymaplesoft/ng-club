@@ -13,20 +13,7 @@ import {
   HttpResponse
 } from '@angular/common/http';
 import { map, filter, catchError, mergeMap, finalize } from 'rxjs/operators';
-// import 'rxjs/add/observable/forkJoin';
-// import 'rxjs/add/operator/debounceTime';
-// import 'rxjs/add/operator/distinctUntilChanged';
-// import 'rxjs/add/operator/do';
-// import 'rxjs/add/operator/map';
-// import 'rxjs/add/operator/catch';
-// import 'rxjs/add/operator/finally';
-// import 'rxjs/add/operator/startWith';
-// import 'rxjs/add/observable/from';
-// import 'rxjs/add/observable/fromEvent';
-// import 'rxjs/add/operator/concatMap';
-// import { StorageService } from 'app/Module_Core/services/storage.service';
 import { saveAs as importedSaveAs } from 'file-saver';
-// import { Subject } from 'rxjs/Subject';
 import { UtilService } from './util.service';
 import { StorageService } from '.';
 import { Observable, forkJoin } from 'rxjs';

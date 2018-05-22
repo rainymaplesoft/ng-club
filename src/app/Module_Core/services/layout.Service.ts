@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
+import { Observable, fromEvent } from 'rxjs';
 import 'rxjs/add/observable/fromEvent';
 import { MatSnackBar } from '@angular/material';
+import { map, tap, filter } from 'rxjs/operators';
 
 export interface IWindowResizeInfo {
   isLessThanBreakpoint: boolean;
   width?: number;
   isCrossed?: boolean;
 }
-
 
 export interface ILayoutService {
   windowResize(breakpoint: number): Observable<IWindowResizeInfo>;
@@ -17,11 +17,9 @@ export interface ILayoutService {
 
 @Injectable()
 export class LayoutService implements ILayoutService {
-
   private _window_privious_width: number;
 
-  constructor(private snackBar: MatSnackBar) { }
-
+  constructor(private snackBar: MatSnackBar) {}
 
   /*
       === useage ===
@@ -37,26 +35,34 @@ export class LayoutService implements ILayoutService {
       }
    */
   public windowResize(breakpoint: number = 960): Observable<IWindowResizeInfo> {
+    const windowInfo = fromEvent(window, 'resize').pipe(
+      map(e => {
+        return {
+          width: window.innerWidth,
+          isLessThanBreakpoint: false,
+          isCrossed: false
+        };
+      }),
+      tap(value => {
+        const isLessThanBreakpoint = this._window_privious_width < breakpoint;
 
-    const windowInfo = Observable.fromEvent(window, 'resize').map((e) => {
-      return { 'width': window.innerWidth, 'isLessThanBreakpoint': false, 'isCrossed': false }
-    }).do((value) => {
-      const isLessThanBreakpoint = this._window_privious_width < breakpoint;
+        value.isCrossed =
+          (isLessThanBreakpoint && window.innerWidth >= breakpoint) ||
+          (!isLessThanBreakpoint && window.innerWidth < breakpoint);
+        value.isLessThanBreakpoint = window.innerWidth < breakpoint;
 
-      value.isCrossed = (isLessThanBreakpoint && window.innerWidth >= breakpoint
-        || !isLessThanBreakpoint && window.innerWidth < breakpoint);
-      value.isLessThanBreakpoint = window.innerWidth < breakpoint;
-
-      this._window_privious_width = window.innerWidth;
-    }).filter(value => value.isCrossed);
+        this._window_privious_width = window.innerWidth;
+      }),
+      filter(value => value.isCrossed)
+    );
 
     return windowInfo;
   }
 
-
   public toastr = (message: string, duration: number = 2000) => {
     this.snackBar.open(message, null, {
-      duration: duration,
+      duration: duration
     });
-  }
+    // tslint:disable-next-line:semicolon
+  };
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialog, MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
-import { ISelection, DialogConfirm } from 'app/Module_Core/enums';
+import { ISelection, DialogConfirm } from '../..';
 
 export interface IDialogSelectParam {
   closeOption?: string;
@@ -39,8 +39,11 @@ export class DialogSelectComponent implements OnInit {
   selectedIds: any[];
   selections: ISelection[];
 
-  constructor(public dialogRef: MatDialogRef<DialogSelectComponent>,
-    public dialog: MatDialog, @Inject(MAT_DIALOG_DATA) public data: IDialogSelectParam) { }
+  constructor(
+    public dialogRef: MatDialogRef<DialogSelectComponent>,
+    public dialog: MatDialog,
+    @Inject(MAT_DIALOG_DATA) public data: IDialogSelectParam
+  ) {}
 
   ngOnInit() {
     this.dialogParam = this.data;
@@ -54,8 +57,10 @@ export class DialogSelectComponent implements OnInit {
     this.selections = [];
     for (const item of this.items) {
       const selection: ISelection = {
-        id: item.id, name: item.name, selected: false
-      }
+        id: item.id,
+        name: item.name,
+        selected: false
+      };
       for (const id of this.selectedIds) {
         if (selection.id === id) {
           selection.selected = true;
@@ -64,7 +69,8 @@ export class DialogSelectComponent implements OnInit {
       }
       this.selections.push(selection);
     }
-  }
+    // tslint:disable-next-line:semicolon
+  };
 
   dialogClose(option: string) {
     this.selectedIds = [];
@@ -78,12 +84,10 @@ export class DialogSelectComponent implements OnInit {
       items: this.selections,
       selectedIds: this.selectedIds,
       closeOption: DialogConfirm.No
-    }
+    };
     if (option === 'yes') {
       result.closeOption = DialogConfirm.Yes;
     }
     this.dialogRef.close(result);
   }
-
-
 }
