@@ -10,7 +10,7 @@ export class Config {
 
   static get client() {
     if (typeof __clientName__ === 'undefined') {
-      return 'eaq';
+      return 'all';
     }
     return __clientName__;
   }
@@ -48,9 +48,8 @@ export class Config {
     if (baseUri === undefined || baseUri === 'http://localhost:4200/') {
       // for IIS
       // baseUri = "http://localhost:8088/SAS/";
-
       // for IIS Express debugging
-      baseUri = 'http://localhost:18661/';
+      // baseUri = 'http://localhost:18661/';
     }
     return baseUri;
   }

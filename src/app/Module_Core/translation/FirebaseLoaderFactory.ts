@@ -1,9 +1,9 @@
 import { TranslateLoader } from '@ngx-translate/core';
 import { AngularFireService } from '../services/firebase.service';
-import { Config } from '../config.core';
 import { Observable } from 'rxjs';
 import { KeysToUpperCase } from './util';
 import { map } from 'rxjs/operators';
+import { Config } from 'src/app/app.config';
 
 export class FirebaseTransLoader implements TranslateLoader {
   private _client: string;

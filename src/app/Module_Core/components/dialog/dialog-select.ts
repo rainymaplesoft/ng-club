@@ -1,6 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialog, MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
-import { ISelection, DialogConfirm } from '../..';
+// import { ISelection, DialogConfirm } from '../..';
+import { ISelection, DialogConfirm } from '../../enums';
 
 export interface IDialogSelectParam {
   closeOption?: string;

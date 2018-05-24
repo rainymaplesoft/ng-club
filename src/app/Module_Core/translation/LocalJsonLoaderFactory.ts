@@ -1,8 +1,8 @@
 import { TranslateLoader } from '@ngx-translate/core';
-import { Config } from '../config.core';
 import { KeysToUpperCase } from './util';
 import { HttpClient } from '@angular/common/http';
 import { map, filter, catchError, mergeMap, finalize } from 'rxjs/operators';
+import { Config } from 'src/app/app.config';
 
 export class LocalJsonTransLoader implements TranslateLoader {
   private _jsonRoot = 'i18n';
@@ -18,11 +18,11 @@ export class LocalJsonTransLoader implements TranslateLoader {
   setup() {
     const origin = window.location.origin;
     let baseUrl = Config.getBaseUri();
-    let assetPath = '';
+    const assetPath = 'assets/';
 
     if (origin.indexOf(':4200') > 0) {
       baseUrl = 'http://localhost:4200/';
-      assetPath = '';
+      // assetPath = '';
     }
     this._languagePath = baseUrl + assetPath + 'i18n/' + this._languageFile;
   }

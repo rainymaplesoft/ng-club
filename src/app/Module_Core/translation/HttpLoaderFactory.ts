@@ -1,9 +1,8 @@
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { Config } from '../config.core';
 import { HttpClient } from '@angular/common/http';
+import { Config } from 'src/app/app.config';
 
 export function HttpLoaderFactory(http: HttpClient) {
-
   const origin = window.location.origin;
   let baseUrl = Config.getBaseUri();
   let assetPath = '';

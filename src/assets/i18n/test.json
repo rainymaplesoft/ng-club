@@ -1,0 +1,4218 @@
+{
+  "i18n": {
+    "cepeo": {
+      "arabic": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "أبلغ عن",
+          "tooltip_reset": "إعادة تعيين",
+          "tooltip_save": "حفظ"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "صف مدرسي",
+          "competency": "كفاءة",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "report_list": "قائمة تقرير",
+          "student": "طالب علم",
+          "student_search": "طالب البحث"
+        },
+        "class": {
+          "gender": "جنس",
+          "grade": "درجة",
+          "student": "طالب علم",
+          "tooltip_link": "انقر هنا لعرض درجات الطلاب"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "الى الخلف",
+          "role": "Role",
+          "save": "حفظ",
+          "show_all_owner": "عرض الكل",
+          "show_inactive": "إظهار غير نشط"
+        },
+        "competency": {
+          "comment": "تعليق",
+          "header_graph": "نتيجة",
+          "header_selection": "حدد الكفاءة",
+          "level1": "كفاءة",
+          "level2": "عنوان",
+          "level3": "الفرعي الاختصاص",
+          "level4": "عنصر من عناصر الكفاءة الفرعية",
+          "level5": "العنصر الفرعي للالكفاءة الفرعية",
+          "search_placeholder": "4 أحرف على الأقل",
+          "tab_graph": "نتيجة",
+          "tab_selection": "اختيار"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "هل تريد الاستمرار؟",
+          "no": "لا",
+          "ok": "OK",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "تؤكد",
+          "title_info": "Information",
+          "yes": "نعم فعلا"
+        },
+        "landing": {
+          "dashboards": "لوحات",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "لوحات",
+          "data_entry": "إدخال البيانات تقييم",
+          "data_entry_tooltip":
+            "إدخال البيانات والوصول إلى منطقة وضعت تقديرات أدوات",
+          "reports": "تقارير",
+          "reports_tooltip": "تقارير",
+          "settings": "إعدادات",
+          "settings_tooltip": "إعدادات",
+          "student_search": "معلومات الطالب البحث",
+          "student_search_tooltip":
+            "الحصول على جميع المعلومات الطالب من خلال بحث طالب على حدة"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "الى الخلف",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "reset": "إعادة تعيين",
+          "save": "حفظ"
+        },
+        "profile": {
+          "profile_report": "تقارير الملف الشخصي",
+          "search_label": "اسم العائلة، الاسم الأول البحث",
+          "search_label_with_oen": "اسم العائلة، الاسم الأول البحث",
+          "student": "طالب علم"
+        },
+        "report": {
+          "report": "أبلغ عن",
+          "report_found": " مجموع التقارير وجدت"
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "تقدير",
+          "color_rule": "Color Business Rules",
+          "self": "إعدادات",
+          "sub_assessment": "تقييم الفرعي",
+          "sub_assessment_item": "عنصر التقييم الفرعي",
+          "subassessment_class": "Sub-Assessment Class",
+          "subassessment_grade": "Sub-Assessment Grade"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(الكل)",
+          "assessment": "تقدير",
+          "class": "صف مدرسي",
+          "grade": "درجة",
+          "school": "مدرسة",
+          "sub_assessment": "تقييم الفرعي",
+          "teacher": "مدرس"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      },
+      "english": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "Report",
+          "tooltip_reset": "Reset",
+          "tooltip_save": "Save"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "Class",
+          "competency": "Competency",
+          "home": "Home",
+          "report": "Report",
+          "report_list": "Report List",
+          "student": "Student",
+          "student_search": "Student Search"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Grade",
+          "student": "Student",
+          "tooltip_link": "click here to show student scores"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Back",
+          "role": "Role",
+          "save": "Save",
+          "show_all_owner": "Show All",
+          "show_inactive": "Show Inactive"
+        },
+        "competency": {
+          "comment": "Comment",
+          "header_graph": "Result",
+          "header_selection": "Select Competency",
+          "level1": "Compétence",
+          "level2": "Rubrique",
+          "level3": "Sous-Compétence",
+          "level4": "Elément de la sous-compétence",
+          "level5": "Sous-élément de la sous-compétence",
+          "search_placeholder": "At least4 characters",
+          "tab_graph": "Result",
+          "tab_selection": "Selection"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "Do you want to continue?",
+          "no": "No",
+          "ok": "Ok",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "Confirm",
+          "title_info": "Information",
+          "yes": "Yes"
+        },
+        "landing": {
+          "dashboards": "Dashboards",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Dashboard",
+          "data_entry": "Assessment Data Entry",
+          "data_entry_tooltip":
+            "Data entry and access to district developed assessments tools",
+          "reports": "Reports",
+          "reports_tooltip": "Reports",
+          "settings": "Assessment Settings",
+          "settings_tooltip": "Assessment Settings",
+          "student_search": "Student Information Search",
+          "student_search_tooltip":
+            "Access to all student information through an individual student search"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Back",
+          "home": "Home",
+          "report": "Report",
+          "reset": "Reset",
+          "save": "Save"
+        },
+        "profile": {
+          "profile_report": "Profile Reports",
+          "search_label": "Lastname, Firstname search",
+          "search_label_with_oen": "Lastname, Firstname, OEN search",
+          "student": "Student"
+        },
+        "report": {
+          "report": "Report",
+          "report_found": "Total reports found: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "Assessment",
+          "color_rule": "Color Business Rules",
+          "self": "Settings",
+          "sub_assessment": "Sub-Assessment",
+          "sub_assessment_item": "Question",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Grades"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(All)",
+          "assessment": "Assessment",
+          "class": "Class",
+          "grade": "Grade",
+          "school": "School",
+          "sub_assessment": "Sub-Assessment",
+          "teacher": "Teacher"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Require a number greater than0"
+        }
+      },
+      "french": {
+        "actionbar": {
+          "tooltip_back": "Retour",
+          "tooltip_delete": "Effacer",
+          "tooltip_report": "Rapport",
+          "tooltip_reset": "Remonter",
+          "tooltip_save": "sauver"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Sujet",
+          "code": "Code sujets",
+          "grid_view": "Affichage par étudiant format grille",
+          "name": "Sujet",
+          "no_parnet": "Pas de parent",
+          "order": "Tri",
+          "parnet": "Parent",
+          "standard_view": "Affichage par étudiant standard",
+          "student_view": "Affichage par étudiant"
+        },
+        "breadcrumb": {
+          "class": "Classe",
+          "home": "Accueil",
+          "report": "Rapport",
+          "report_list": "Liste des rapports",
+          "student": "Élève",
+          "student_search": "Rechercher un élève"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Niveau",
+          "student": "Élève",
+          "tooltip_link": "Cliquez ici pour afficher les notes des élèves"
+        },
+        "color_rule": {
+          "color": "Couleur",
+          "color_business_rules": "Règles des couleurs",
+          "end_date": "Date Fin",
+          "expression": "Expression",
+          "grade": "Niveau",
+          "start_date": "Date Début",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Valeur1",
+          "value_2": "Valeur2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Retour",
+          "role": "Rôle",
+          "save": "Sauvegarder",
+          "show_all_owner": "Afficher Tout",
+          "show_inactive": "Afficher Inactif"
+        },
+        "competency": {
+          "comment": "Commentaire",
+          "header_graph": "Compétences associées",
+          "header_selection": "Sélectionnez une compétence",
+          "level1": "Domaine",
+          "level2": "Compétence",
+          "level3": "Élément de compétence",
+          "level4": "Sous-élément de compétence",
+          "level5": "Item",
+          "search_placeholder": "Au moins4 caractères",
+          "tab_graph": "Compétences associées",
+          "tab_selection": "Sélection"
+        },
+        "complexity": {
+          "average": "Moyen",
+          "high": "Élevé",
+          "simple": "Faible",
+          "very_high": "Très élevé"
+        },
+        "dialog": {
+          "cancel": "Annuler",
+          "delete_fail": "Impossible de supprimer",
+          "delete_success": "Supprimé avec succès",
+          "failed_get_data": "Impossible d'obtenir des données",
+          "leave_warning":
+            "AVERTISSEMENT: Vos changements ne seront pas sauvegardés. Veuillez appuyer sur Annuler sur ce message et sauvegarder vos modifications. Sinon, cliquer sur OK pour annuler ces changements.",
+          "message_continue": "Voulez-vous continuer?",
+          "no": "Non",
+          "ok": "OK",
+          "save": "Sauvegarder",
+          "save_fail": "Échec de l'enregistrement",
+          "save_success": "Sauvegarde réussie",
+          "title_confirm": "Confirmer",
+          "title_info": "Information",
+          "yes": "Oui"
+        },
+        "landing": {
+          "dashboards": "Tableaux de bords",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Tableaux de bords",
+          "data_entry": "Système d'Évaluation des Étudiants",
+          "data_entry_tooltip":
+            "Sytème permettant la saisie de résultats sur des activités ouvertes",
+          "reports": "Rapports",
+          "reports_tooltip": "Rapports",
+          "settings": "Paramètres",
+          "settings_tooltip": "Paramètres",
+          "student_search": "Profil Élève",
+          "student_search_tooltip":
+            "Accès à toutes les informations sur le profil des élèves grâce à une recherche par nom et prénom"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Arrière",
+          "home": "Accueil",
+          "report": "Rapport",
+          "reset": "Réinitialiser",
+          "save": "sauvegarder"
+        },
+        "profile": {
+          "profile_report": "Rapports du profil de l’élève",
+          "search_label": "Recherchez par Nom, Prénom",
+          "search_label_with_oen": "Recherchez par Nom, Prénom ou NISO",
+          "student": "Élève"
+        },
+        "report": {
+          "report": "Rapport",
+          "report_found": "Total des rapports trouvés: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "Principal",
+          "school_admin": "Admin de l'école",
+          "student": "Étudiant",
+          "system_admin": "Administrateur système",
+          "teacher": "Enseignant"
+        },
+        "selection": {
+          "between": "Entre",
+          "equal": "Égal (=)",
+          "larger_than": "Plus Grand (>)",
+          "less_than": "Plus Petit (<)"
+        },
+        "settings": {
+          "assessment": "Sujets",
+          "color_rule": "Couleurs",
+          "competency": "Compétence",
+          "self": "Paramètres",
+          "sub_assessment": "Activité Ouverte",
+          "sub_assessment_item": "Compétence / Talent",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Niveau"
+        },
+        "student": { "activity": "Activité" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Permettre plus qu'une évaluation par étudiant",
+          "assign_to_student": "Assignations",
+          "assignment": "Assignations, étudiants",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "Date Fin",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "owner": "Propriétaire",
+          "period": "Période",
+          "role": "Rôle",
+          "select_all": "Tout sélectionner",
+          "start_date": "Date Début",
+          "status": "État",
+          "sub_assessment": "Activités Ouvertest",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(Tout)",
+          "assessment": "Sujets",
+          "class": "Classe",
+          "grade": "Niveau",
+          "school": "École",
+          "sub_assessment": "Activité Ouverte",
+          "teacher": "Professeur"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Niveau de complexité",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "sub_assessment_item": "Compétence / Talent",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Requis",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      }
+    },
+    "eaq": {
+      "arabic": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "أبلغ عن",
+          "tooltip_reset": "إعادة تعيين",
+          "tooltip_save": "حفظ"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "صف مدرسي",
+          "competency": "كفاءة",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "report_list": "قائمة تقرير",
+          "student": "طالب علم",
+          "student_search": "طالب البحث"
+        },
+        "class": {
+          "gender": "جنس",
+          "grade": "درجة",
+          "student": "طالب علم",
+          "tooltip_link": "انقر هنا لعرض درجات الطلاب"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "الى الخلف",
+          "role": "Role",
+          "save": "حفظ",
+          "show_all_owner": "عرض الكل",
+          "show_inactive": "إظهار غير نشط"
+        },
+        "competency": {
+          "comment": "تعليق",
+          "header_graph": "نتيجة",
+          "header_selection": "حدد الكفاءة",
+          "level1": "كفاءة",
+          "level2": "عنوان",
+          "level3": "الفرعي الاختصاص",
+          "level4": "عنصر من عناصر الكفاءة الفرعية",
+          "level5": "العنصر الفرعي للالكفاءة الفرعية",
+          "search_placeholder": "4 أحرف على الأقل",
+          "tab_graph": "نتيجة",
+          "tab_selection": "اختيار"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "هل تريد الاستمرار؟",
+          "no": "لا",
+          "ok": "OK",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "تؤكد",
+          "title_info": "Information",
+          "yes": "نعم فعلا"
+        },
+        "landing": {
+          "dashboards": "لوحات",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "لوحات",
+          "data_entry": "إدخال البيانات تقييم",
+          "data_entry_tooltip":
+            "إدخال البيانات والوصول إلى منطقة وضعت تقديرات أدوات",
+          "reports": "تقارير",
+          "reports_tooltip": "تقارير",
+          "settings": "إعدادات",
+          "settings_tooltip": "إعدادات",
+          "student_search": "معلومات الطالب البحث",
+          "student_search_tooltip":
+            "الحصول على جميع المعلومات الطالب من خلال بحث طالب على حدة"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "الى الخلف",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "reset": "إعادة تعيين",
+          "save": "حفظ"
+        },
+        "profile": {
+          "profile_report": "تقارير الملف الشخصي",
+          "search_label": "اسم العائلة، الاسم الأول البحث",
+          "search_label_with_oen": "اسم العائلة، الاسم الأول البحث",
+          "student": "طالب علم"
+        },
+        "report": {
+          "report": "أبلغ عن",
+          "report_found": " مجموع التقارير وجدت"
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "تقدير",
+          "color_rule": "Color Business Rules",
+          "self": "إعدادات",
+          "sub_assessment": "تقييم الفرعي",
+          "sub_assessment_item": "عنصر التقييم الفرعي",
+          "subassessment_class": "Sub-Assessment Class",
+          "subassessment_grade": "Sub-Assessment Grade"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(الكل)",
+          "assessment": "تقدير",
+          "class": "صف مدرسي",
+          "grade": "درجة",
+          "school": "مدرسة",
+          "sub_assessment": "تقييم الفرعي",
+          "teacher": "مدرس"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      },
+      "english": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "Report",
+          "tooltip_reset": "Reset",
+          "tooltip_save": "Save"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "Class",
+          "competency": "Competency",
+          "home": "Home",
+          "report": "Report",
+          "report_list": "Report List",
+          "student": "Student",
+          "student_search": "Student Search"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Grade",
+          "student": "Student",
+          "tooltip_link": "click here to show student scores"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "Potential addition to the comment bank",
+          "COMMENT_BANK": "Comment bank",
+          "back": "Back",
+          "role": "Role",
+          "save": "Save",
+          "show_all_owner": "Show All",
+          "show_inactive": "Show Inactive"
+        },
+        "competency": {
+          "comment": "Comment",
+          "header_graph": "Result",
+          "header_selection": "Select Competency",
+          "level1": "Compétence",
+          "level2": "Rubrique",
+          "level3": "Sous-Compétence",
+          "level4": "Elément de la sous-compétence",
+          "level5": "Sous-élément de la sous-compétence",
+          "search_placeholder": "At least4 characters",
+          "tab_graph": "Result",
+          "tab_selection": "Selection"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "Do you want to continue?",
+          "no": "No",
+          "ok": "Ok",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "Confirm",
+          "title_info": "Information",
+          "yes": "Yes"
+        },
+        "landing": {
+          "dashboards": "Dashboards",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Dashboard",
+          "data_entry": "Assessment Data Entry",
+          "data_entry_tooltip":
+            "Data entry and access to district developed assessments tools",
+          "reports": "Reports",
+          "reports_tooltip": "Reports",
+          "settings": "Assessment Settings",
+          "settings_tooltip": "Assessment Settings",
+          "student_search": "Student Information Search",
+          "student_search_tooltip":
+            "Access to all student information through an individual student search"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Back",
+          "home": "Home",
+          "report": "Report",
+          "reset": "Reset",
+          "save": "Save"
+        },
+        "profile": {
+          "profile_report": "Profile Reports",
+          "search_label": "Lastname, Firstname search",
+          "search_label_with_oen": "Lastname, Firstname, OEN search",
+          "student": "Student"
+        },
+        "report": {
+          "report": "Report",
+          "report_found": "Total reports found: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "Assessment",
+          "color_rule": "Color Business Rules",
+          "self": "Settings",
+          "sub_assessment": "Sub-Assessment",
+          "sub_assessment_item": "Question",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Grades"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(All)",
+          "assessment": "Assessment",
+          "class": "Class",
+          "grade": "Grade",
+          "school": "School",
+          "sub_assessment": "Sub-Assessment",
+          "teacher": "Teacher"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Require a number greater than0"
+        }
+      },
+      "french": {
+        "actionbar": {
+          "tooltip_back": "Retour",
+          "tooltip_delete": "Effacer",
+          "tooltip_report": "Rapport",
+          "tooltip_reset": "Remonter",
+          "tooltip_save": "sauver"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Sujet",
+          "code": "Code sujets",
+          "grid_view": "Affichage par étudiant format grille",
+          "name": "Sujet",
+          "no_parnet": "Pas de parent",
+          "order": "Tri",
+          "parnet": "Parent",
+          "standard_view": "Affichage par étudiant standard",
+          "student_view": "Affichage par étudiant"
+        },
+        "breadcrumb": {
+          "class": "Classe",
+          "home": "Accueil",
+          "report": "Rapport",
+          "report_list": "Liste des rapports",
+          "student": "Élève",
+          "student_search": "Rechercher un élève"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Niveau",
+          "student": "Élève",
+          "tooltip_link": "Cliquez ici pour afficher les notes des élèves"
+        },
+        "color_rule": {
+          "color": "Couleur",
+          "color_business_rules": "Règles des couleurs",
+          "end_date": "Date Fin",
+          "expression": "Expression",
+          "grade": "Niveau",
+          "start_date": "Date Début",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Valeur1",
+          "value_2": "Valeur2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "Ajout potentiel à la banque de commentaires",
+          "COMMENT_BANK": "La banque de commentaires",
+          "back": "Retour",
+          "role": "Rôle",
+          "save": "Sauvegarder",
+          "show_all_owner": "Afficher Tout",
+          "show_inactive": "Afficher Inactif"
+        },
+        "competency": {
+          "comment": "Commentaire",
+          "header_graph": "Compétences associées",
+          "header_selection": "Sélectionnez une compétence",
+          "level1": "Domaine",
+          "level2": "Compétence",
+          "level3": "Élément de compétence",
+          "level4": "Sous-élément de compétence",
+          "level5": "Item",
+          "search_placeholder": "Au moins4 caractères",
+          "tab_graph": "Compétences associées",
+          "tab_selection": "Sélection"
+        },
+        "complexity": {
+          "average": "Moyen",
+          "high": "Élevé",
+          "simple": "Faible",
+          "very_high": "Très élevé"
+        },
+        "dialog": {
+          "cancel": "Annuler",
+          "delete_fail": "Impossible de supprimer",
+          "delete_success": "Supprimé avec succès",
+          "failed_get_data": "Impossible d'obtenir des données",
+          "leave_warning":
+            "AVERTISSEMENT: Vos changements ne seront pas sauvegardés. Veuillez appuyer sur Annuler sur ce message et sauvegarder vos modifications. Sinon, cliquer sur OK pour annuler ces changements.",
+          "message_continue": "Voulez-vous continuer?",
+          "no": "Non",
+          "ok": "OK",
+          "save": "Sauvegarder",
+          "save_fail": "Échec de l'enregistrement",
+          "save_success": "Sauvegarde réussie",
+          "title_confirm": "Confirmer",
+          "title_info": "Information",
+          "yes": "Oui"
+        },
+        "landing": {
+          "dashboards": "Tableaux de bords",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Tableaux de bords",
+          "data_entry": "Système d'Évaluation des Étudiants",
+          "data_entry_tooltip":
+            "Sytème permettant la saisie de résultats sur des activités ouvertes",
+          "reports": "Rapports",
+          "reports_tooltip": "Rapports",
+          "settings": "Paramètres",
+          "settings_tooltip": "Paramètres",
+          "student_search": "Profil Élève",
+          "student_search_tooltip":
+            "Accès à toutes les informations sur le profil des élèves grâce à une recherche par nom et prénom"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Arrière",
+          "home": "Accueil",
+          "report": "Rapport",
+          "reset": "Réinitialiser",
+          "save": "sauvegarder"
+        },
+        "profile": {
+          "profile_report": "Rapports du profil de l’élève",
+          "search_label": "Recherchez par Nom, Prénom",
+          "search_label_with_oen": "Recherchez par Nom, Prénom ou NISO",
+          "student": "Élève"
+        },
+        "report": {
+          "report": "Rapport",
+          "report_found": "Total des rapports trouvés: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "Principal",
+          "school_admin": "Admin de l'école",
+          "student": "Étudiant",
+          "system_admin": "Administrateur système",
+          "teacher": "Enseignant"
+        },
+        "selection": {
+          "between": "Entre",
+          "equal": "Égal (=)",
+          "larger_than": "Plus Grand (>)",
+          "less_than": "Plus Petit (<)"
+        },
+        "settings": {
+          "assessment": "Sujets",
+          "color_rule": "Couleurs",
+          "competency": "Compétence",
+          "self": "Paramètres",
+          "sub_assessment": "Activité Ouverte",
+          "sub_assessment_item": "Compétence / Talent",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Niveau"
+        },
+        "student": { "activity": "Activité" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Permettre plus qu'une évaluation par étudiant",
+          "assign_to_student": "Assignations",
+          "assignment": "Assignations, étudiants",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "Date Fin",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "owner": "Propriétaire",
+          "period": "Période",
+          "role": "Rôle",
+          "select_all": "Tout sélectionner",
+          "start_date": "Date Début",
+          "status": "État",
+          "sub_assessment": "Activités Ouvertest",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(Tout)",
+          "assessment": "Sujets",
+          "class": "Classe",
+          "grade": "Niveau",
+          "school": "École",
+          "sub_assessment": "Activité Ouverte",
+          "teacher": "Professeur"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Niveau de complexité",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "sub_assessment_item": "Compétence / Talent",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Requis",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      }
+    },
+    "moro": {
+      "arabic": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "أبلغ عن",
+          "tooltip_reset": "إعادة تعيين",
+          "tooltip_save": "حفظ"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "صف مدرسي",
+          "competency": "كفاءة",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "report_list": "قائمة تقرير",
+          "student": "طالب علم",
+          "student_search": "طالب البحث"
+        },
+        "class": {
+          "gender": "جنس",
+          "grade": "درجة",
+          "student": "طالب علم",
+          "tooltip_link": "انقر هنا لعرض درجات الطلاب"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "الى الخلف",
+          "role": "Role",
+          "save": "حفظ",
+          "show_all_owner": "عرض الكل",
+          "show_inactive": "إظهار غير نشط"
+        },
+        "competency": {
+          "comment": "تعليق",
+          "header_graph": "نتيجة",
+          "header_selection": "حدد الكفاءة",
+          "level1": "كفاءة",
+          "level2": "عنوان",
+          "level3": "الفرعي الاختصاص",
+          "level4": "عنصر من عناصر الكفاءة الفرعية",
+          "level5": "العنصر الفرعي للالكفاءة الفرعية",
+          "search_placeholder": "4 أحرف على الأقل",
+          "tab_graph": "نتيجة",
+          "tab_selection": "اختيار"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "هل تريد الاستمرار؟",
+          "no": "لا",
+          "ok": "OK",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "تؤكد",
+          "title_info": "Information",
+          "yes": "نعم فعلا"
+        },
+        "landing": {
+          "dashboards": "لوحات",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "لوحات",
+          "data_entry": "إدخال البيانات تقييم",
+          "data_entry_tooltip":
+            "إدخال البيانات والوصول إلى منطقة وضعت تقديرات أدوات",
+          "reports": "تقارير",
+          "reports_tooltip": "تقارير",
+          "settings": "إعدادات",
+          "settings_tooltip": "إعدادات",
+          "student_search": "معلومات الطالب البحث",
+          "student_search_tooltip":
+            "الحصول على جميع المعلومات الطالب من خلال بحث طالب على حدة"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "الى الخلف",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "reset": "إعادة تعيين",
+          "save": "حفظ"
+        },
+        "profile": {
+          "profile_report": "تقارير الملف الشخصي",
+          "search_label": "اسم العائلة، الاسم الأول البحث",
+          "search_label_with_oen": "اسم العائلة، الاسم الأول البحث",
+          "student": "طالب علم"
+        },
+        "report": {
+          "report": "أبلغ عن",
+          "report_found": " مجموع التقارير وجدت"
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "تقدير",
+          "color_rule": "Color Business Rules",
+          "self": "إعدادات",
+          "sub_assessment": "تقييم الفرعي",
+          "sub_assessment_item": "عنصر التقييم الفرعي",
+          "subassessment_class": "Sub-Assessment Class",
+          "subassessment_grade": "Sub-Assessment Grade"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(الكل)",
+          "assessment": "تقدير",
+          "class": "صف مدرسي",
+          "grade": "درجة",
+          "school": "مدرسة",
+          "sub_assessment": "تقييم الفرعي",
+          "teacher": "مدرس"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      },
+      "english": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "Report",
+          "tooltip_reset": "Reset",
+          "tooltip_save": "Save"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "Class",
+          "competency": "Competency",
+          "home": "Home",
+          "report": "Report",
+          "report_list": "Report List",
+          "student": "Student",
+          "student_search": "Student Search"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Grade",
+          "student": "Student",
+          "tooltip_link": "click here to show student scores"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Back",
+          "role": "Role",
+          "save": "Save",
+          "show_all_owner": "Show All",
+          "show_inactive": "Show Inactive"
+        },
+        "competency": {
+          "comment": "Comment",
+          "header_graph": "Result",
+          "header_selection": "Select Competency",
+          "level1": "Compétence",
+          "level2": "Rubrique",
+          "level3": "Sous-Compétence",
+          "level4": "Elément de la sous-compétence",
+          "level5": "Sous-élément de la sous-compétence",
+          "search_placeholder": "At least4 characters",
+          "tab_graph": "Result",
+          "tab_selection": "Selection"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "Do you want to continue?",
+          "no": "No",
+          "ok": "Ok",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "Confirm",
+          "title_info": "Information",
+          "yes": "Yes"
+        },
+        "landing": {
+          "dashboards": "Dashboards",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Dashboard",
+          "data_entry": "Assessment Data Entry",
+          "data_entry_tooltip":
+            "Data entry and access to district developed assessments tools",
+          "reports": "Reports",
+          "reports_tooltip": "Reports",
+          "settings": "Assessment Settings",
+          "settings_tooltip": "Assessment Settings",
+          "student_search": "Student Information Search",
+          "student_search_tooltip":
+            "Access to all student information through an individual student search"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Back",
+          "home": "Home",
+          "report": "Report",
+          "reset": "Reset",
+          "save": "Save"
+        },
+        "profile": {
+          "profile_report": "Profile Reports",
+          "search_label": "Lastname, Firstname search",
+          "search_label_with_oen": "Lastname, Firstname, OEN search",
+          "student": "Student"
+        },
+        "report": {
+          "report": "Report",
+          "report_found": "Total reports found: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "Assessment",
+          "color_rule": "Color Business Rules",
+          "self": "Settings",
+          "sub_assessment": "Sub-Assessment",
+          "sub_assessment_item": "Question",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Grades"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(All)",
+          "assessment": "Assessment",
+          "class": "Class",
+          "grade": "Grade",
+          "school": "School",
+          "sub_assessment": "Sub-Assessment",
+          "teacher": "Teacher"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Require a number greater than0"
+        }
+      },
+      "french": {
+        "actionbar": {
+          "tooltip_back": "Retour",
+          "tooltip_delete": "Effacer",
+          "tooltip_report": "Rapport",
+          "tooltip_reset": "Remonter",
+          "tooltip_save": "sauver"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Matière",
+          "code": "Code matière",
+          "grid_view": "Affichage par étudiant format grille",
+          "name": "Matière",
+          "no_parnet": "Pas de parent",
+          "order": "Tri",
+          "parnet": "Parent",
+          "standard_view": "Affichage par étudiant standard",
+          "student_view": "Affichage par étudiant"
+        },
+        "breadcrumb": {
+          "class": "Classe",
+          "home": "Accueil",
+          "report": "Rapport",
+          "report_list": "Liste des rapports",
+          "student": "Élève",
+          "student_search": "Rechercher un élève"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Niveau",
+          "student": "Élève",
+          "tooltip_link": "Cliquez ici pour afficher les notes des élèves"
+        },
+        "color_rule": {
+          "color": "Couleur",
+          "color_business_rules": "Règles des couleurs",
+          "end_date": "Date Fin",
+          "expression": "Expression",
+          "grade": "Niveau",
+          "start_date": "Date Début",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Valeur1",
+          "value_2": "Valeur2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Retour",
+          "role": "Rôle",
+          "save": "Sauvegarder",
+          "show_all_owner": "Afficher Tout",
+          "show_inactive": "Afficher Inactif"
+        },
+        "competency": {
+          "comment": "Commentaire",
+          "header_graph": "Compétences associées",
+          "header_selection": "Sélectionnez une compétence",
+          "level1": "Domaine",
+          "level2": "Compétence",
+          "level3": "Élément de compétence",
+          "level4": "Sous-élément de compétence",
+          "level5": "Item",
+          "search_placeholder": "Au moins4 caractères",
+          "tab_graph": "Compétences associées",
+          "tab_selection": "Sélection"
+        },
+        "complexity": {
+          "average": "Moyen",
+          "high": "Élevé",
+          "simple": "Faible",
+          "very_high": "Très élevé"
+        },
+        "dialog": {
+          "cancel": "Annuler",
+          "delete_fail": "Impossible de supprimer",
+          "delete_success": "Supprimé avec succès",
+          "failed_get_data": "Impossible d'obtenir des données",
+          "leave_warning":
+            "AVERTISSEMENT: Vos changements ne seront pas sauvegardés. Veuillez appuyer sur Annuler sur ce message et sauvegarder vos modifications. Sinon, cliquer sur OK pour annuler ces changements.",
+          "message_continue": "Voulez-vous continuer?",
+          "no": "Non",
+          "ok": "OK",
+          "save": "Sauvegarder",
+          "save_fail": "Échec de l'enregistrement",
+          "save_success": "Sauvegarde réussie",
+          "title_confirm": "Confirmer",
+          "title_info": "Information",
+          "yes": "Oui"
+        },
+        "landing": {
+          "dashboards": "Tableaux de bords",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Tableaux de bords",
+          "data_entry": "Système d'Évaluation des Étudiants",
+          "data_entry_tooltip":
+            "Sytème permettant la saisie de résultats sur des évaluations",
+          "reports": "Rapports",
+          "reports_tooltip": "Rapports",
+          "settings": "Paramètres",
+          "settings_tooltip": "Paramètres",
+          "student_search": "Profil Élève",
+          "student_search_tooltip":
+            "Accès à toutes les informations sur le profil des élèves grâce à une recherche par nom et prénom"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Arrière",
+          "home": "Accueil",
+          "report": "Rapport",
+          "reset": "Réinitialiser",
+          "save": "sauvegarder"
+        },
+        "profile": {
+          "profile_report": "Rapports du profil de l’élève",
+          "search_label": "Recherchez par Nom, Prénom",
+          "search_label_with_oen": "Recherchez par Nom, Prénom ou NISO",
+          "student": "Élève"
+        },
+        "report": {
+          "report": "Rapport",
+          "report_found": "Total des rapports trouvés: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "Principal",
+          "school_admin": "Admin de l'école",
+          "student": "Étudiant",
+          "system_admin": "Administrateur système",
+          "teacher": "Professeur"
+        },
+        "selection": {
+          "between": "Entre",
+          "equal": "Égal (=)",
+          "larger_than": "Plus Grand (>)",
+          "less_than": "Plus Petit (<)"
+        },
+        "settings": {
+          "assessment": "Matières",
+          "color_rule": "Couleurs",
+          "competency": "Compétence",
+          "self": "Paramètres",
+          "sub_assessment": "Évaluations",
+          "sub_assessment_item": "Questions",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Niveau"
+        },
+        "student": { "activity": "Activité" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Permettre plus qu'une évaluation par étudiant",
+          "assign_to_student": "Assignations",
+          "assignment": "Assignations, étudiants",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "Date Fin",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "owner": "Propriétaire",
+          "period": "Période",
+          "role": "Rôle",
+          "select_all": "Tout sélectionner",
+          "start_date": "Date Début",
+          "status": "État",
+          "sub_assessment": "Évaluations",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(Tout)",
+          "assessment": "Sujets",
+          "class": "Classe",
+          "grade": "Niveau",
+          "school": "École",
+          "sub_assessment": "Activité Ouverte",
+          "teacher": "Professeur"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Niveau de complexité",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "sub_assessment_item": "Compétence / Talent",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Requis",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      }
+    },
+    "nesd": {
+      "arabic": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "أبلغ عن",
+          "tooltip_reset": "إعادة تعيين",
+          "tooltip_save": "حفظ"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "صف مدرسي",
+          "competency": "كفاءة",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "report_list": "قائمة تقرير",
+          "student": "طالب علم",
+          "student_search": "طالب البحث"
+        },
+        "class": {
+          "gender": "جنس",
+          "grade": "درجة",
+          "student": "طالب علم",
+          "tooltip_link": "انقر هنا لعرض درجات الطلاب"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "الى الخلف",
+          "role": "Role",
+          "save": "حفظ",
+          "show_all_owner": "عرض الكل",
+          "show_inactive": "إظهار غير نشط"
+        },
+        "competency": {
+          "comment": "تعليق",
+          "header_graph": "نتيجة",
+          "header_selection": "حدد الكفاءة",
+          "level1": "كفاءة",
+          "level2": "عنوان",
+          "level3": "الفرعي الاختصاص",
+          "level4": "عنصر من عناصر الكفاءة الفرعية",
+          "level5": "العنصر الفرعي للالكفاءة الفرعية",
+          "search_placeholder": "4 أحرف على الأقل",
+          "tab_graph": "نتيجة",
+          "tab_selection": "اختيار"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "هل تريد الاستمرار؟",
+          "no": "لا",
+          "ok": "OK",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "تؤكد",
+          "title_info": "Information",
+          "yes": "نعم فعلا"
+        },
+        "landing": {
+          "dashboards": "لوحات",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "لوحات",
+          "data_entry": "إدخال البيانات تقييم",
+          "data_entry_tooltip":
+            "إدخال البيانات والوصول إلى منطقة وضعت تقديرات أدوات",
+          "reports": "تقارير",
+          "reports_tooltip": "تقارير",
+          "settings": "إعدادات",
+          "settings_tooltip": "إعدادات",
+          "student_search": "معلومات الطالب البحث",
+          "student_search_tooltip":
+            "الحصول على جميع المعلومات الطالب من خلال بحث طالب على حدة"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "الى الخلف",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "reset": "إعادة تعيين",
+          "save": "حفظ"
+        },
+        "profile": {
+          "profile_report": "تقارير الملف الشخصي",
+          "search_label": "اسم العائلة، الاسم الأول البحث",
+          "search_label_with_oen": "اسم العائلة، الاسم الأول البحث",
+          "student": "طالب علم"
+        },
+        "report": {
+          "report": "أبلغ عن",
+          "report_found": " مجموع التقارير وجدت"
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "تقدير",
+          "color_rule": "Color Business Rules",
+          "self": "إعدادات",
+          "sub_assessment": "تقييم الفرعي",
+          "sub_assessment_item": "عنصر التقييم الفرعي",
+          "subassessment_class": "Sub-Assessment Class",
+          "subassessment_grade": "Sub-Assessment Grade"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(الكل)",
+          "assessment": "تقدير",
+          "class": "صف مدرسي",
+          "grade": "درجة",
+          "school": "مدرسة",
+          "sub_assessment": "تقييم الفرعي",
+          "teacher": "مدرس"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      },
+      "english": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "Report",
+          "tooltip_reset": "Reset",
+          "tooltip_save": "Save"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "Class",
+          "competency": "Competency",
+          "home": "Home",
+          "report": "Report",
+          "report_list": "Report List",
+          "student": "Student",
+          "student_search": "Student Search"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Grade",
+          "student": "Student",
+          "tooltip_link": "click here to show student scores"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Back",
+          "role": "Role",
+          "save": "Save",
+          "show_all_owner": "Show All",
+          "show_inactive": "Show Inactive"
+        },
+        "competency": {
+          "comment": "Comment",
+          "header_graph": "Result",
+          "header_selection": "Select Competency",
+          "level1": "Compétence",
+          "level2": "Rubrique",
+          "level3": "Sous-Compétence",
+          "level4": "Elément de la sous-compétence",
+          "level5": "Sous-élément de la sous-compétence",
+          "search_placeholder": "At least4 characters",
+          "tab_graph": "Result",
+          "tab_selection": "Selection"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "Do you want to continue?",
+          "no": "No",
+          "ok": "Ok",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "Confirm",
+          "title_info": "Information",
+          "yes": "Yes"
+        },
+        "landing": {
+          "dashboards": "Dashboards",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Dashboard",
+          "data_entry": "Assessment Data Entry",
+          "data_entry_tooltip":
+            "Data entry and access to district developed assessments tools",
+          "reports": "Reports",
+          "reports_tooltip": "Reports",
+          "settings": "Assessment Settings",
+          "settings_tooltip": "Assessment Settings",
+          "student_search": "Student Information Search",
+          "student_search_tooltip":
+            "Access to all student information through an individual student search"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Back",
+          "home": "Home",
+          "report": "Report",
+          "reset": "Reset",
+          "save": "Save"
+        },
+        "profile": {
+          "profile_report": "Profile Reports",
+          "search_label": "Lastname, Firstname search",
+          "search_label_with_oen": "Lastname, Firstname, OEN search",
+          "student": "Student"
+        },
+        "report": {
+          "report": "Report",
+          "report_found": "Total reports found: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "Assessment",
+          "color_rule": "Color Business Rules",
+          "self": "Settings",
+          "sub_assessment": "Sub-Assessment",
+          "sub_assessment_item": "Question",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Grades"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(All)",
+          "assessment": "Assessment",
+          "class": "Class",
+          "grade": "Grade",
+          "school": "School",
+          "sub_assessment": "Sub-Assessment",
+          "teacher": "Teacher"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Require a number greater than0"
+        }
+      },
+      "french": {
+        "actionbar": {
+          "tooltip_back": "Retour",
+          "tooltip_delete": "Effacer",
+          "tooltip_report": "Rapport",
+          "tooltip_reset": "Remonter",
+          "tooltip_save": "sauver"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Sujet",
+          "code": "Code sujets",
+          "grid_view": "Affichage par étudiant format grille",
+          "name": "Sujet",
+          "no_parnet": "Pas de parent",
+          "order": "Tri",
+          "parnet": "Parent",
+          "standard_view": "Affichage par étudiant standard",
+          "student_view": "Affichage par étudiant"
+        },
+        "breadcrumb": {
+          "class": "Classe",
+          "home": "Accueil",
+          "report": "Rapport",
+          "report_list": "Liste des rapports",
+          "student": "Élève",
+          "student_search": "Rechercher un élève"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Niveau",
+          "student": "Élève",
+          "tooltip_link": "Cliquez ici pour afficher les notes des élèves"
+        },
+        "color_rule": {
+          "color": "Couleur",
+          "color_business_rules": "Règles des couleurs",
+          "end_date": "Date Fin",
+          "expression": "Expression",
+          "grade": "Niveau",
+          "start_date": "Date Début",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Valeur1",
+          "value_2": "Valeur2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Retour",
+          "role": "Rôle",
+          "save": "Sauvegarder",
+          "show_all_owner": "Afficher Tout",
+          "show_inactive": "Afficher Inactif"
+        },
+        "competency": {
+          "comment": "Commentaire",
+          "header_graph": "Compétences associées",
+          "header_selection": "Sélectionnez une compétence",
+          "level1": "Domaine",
+          "level2": "Compétence",
+          "level3": "Élément de compétence",
+          "level4": "Sous-élément de compétence",
+          "level5": "Item",
+          "search_placeholder": "Au moins4 caractères",
+          "tab_graph": "Compétences associées",
+          "tab_selection": "Sélection"
+        },
+        "complexity": {
+          "average": "Moyen",
+          "high": "Élevé",
+          "simple": "Faible",
+          "very_high": "Très élevé"
+        },
+        "dialog": {
+          "cancel": "Annuler",
+          "delete_fail": "Impossible de supprimer",
+          "delete_success": "Supprimé avec succès",
+          "failed_get_data": "Impossible d'obtenir des données",
+          "leave_warning":
+            "AVERTISSEMENT: Vos changements ne seront pas sauvegardés. Veuillez appuyer sur Annuler sur ce message et sauvegarder vos modifications. Sinon, cliquer sur OK pour annuler ces changements.",
+          "message_continue": "Voulez-vous continuer?",
+          "no": "Non",
+          "ok": "OK",
+          "save": "Sauvegarder",
+          "save_fail": "Échec de l'enregistrement",
+          "save_success": "Sauvegarde réussie",
+          "title_confirm": "Confirmer",
+          "title_info": "Information",
+          "yes": "Oui"
+        },
+        "landing": {
+          "dashboards": "Tableaux de bords",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Tableaux de bords",
+          "data_entry": "Système d'Évaluation des Étudiants",
+          "data_entry_tooltip":
+            "Sytème permettant la saisie de résultats sur des activités ouvertes",
+          "reports": "Rapports",
+          "reports_tooltip": "Rapports",
+          "settings": "Paramètres",
+          "settings_tooltip": "Paramètres",
+          "student_search": "Profil Élève",
+          "student_search_tooltip":
+            "Accès à toutes les informations sur le profil des élèves grâce à une recherche par nom et prénom"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Arrière",
+          "home": "Accueil",
+          "report": "Rapport",
+          "reset": "Réinitialiser",
+          "save": "sauvegarder"
+        },
+        "profile": {
+          "profile_report": "Rapports du profil de l’élève",
+          "search_label": "Recherchez par Nom, Prénom",
+          "search_label_with_oen": "Recherchez par Nom, Prénom ou NISO",
+          "student": "Élève"
+        },
+        "report": {
+          "report": "Rapport",
+          "report_found": "Total des rapports trouvés: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "Principal",
+          "school_admin": "Admin de l'école",
+          "student": "Étudiant",
+          "system_admin": "Administrateur système",
+          "teacher": "Enseignant"
+        },
+        "selection": {
+          "between": "Entre",
+          "equal": "Égal (=)",
+          "larger_than": "Plus Grand (>)",
+          "less_than": "Plus Petit (<)"
+        },
+        "settings": {
+          "assessment": "Sujets",
+          "color_rule": "Couleurs",
+          "competency": "Compétence",
+          "self": "Paramètres",
+          "sub_assessment": "Activité Ouverte",
+          "sub_assessment_item": "Compétence / Talent",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Niveau"
+        },
+        "student": { "activity": "Activité" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Permettre plus qu'une évaluation par étudiant",
+          "assign_to_student": "Assignations",
+          "assignment": "Assignations, étudiants",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "Date Fin",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "owner": "Propriétaire",
+          "period": "Période",
+          "role": "Rôle",
+          "select_all": "Tout sélectionner",
+          "start_date": "Date Début",
+          "status": "État",
+          "sub_assessment": "Activités Ouvertest",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(Tout)",
+          "assessment": "Sujets",
+          "class": "Classe",
+          "grade": "Niveau",
+          "school": "École",
+          "sub_assessment": "Activité Ouverte",
+          "teacher": "Professeur"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Niveau de complexité",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "sub_assessment_item": "Compétence / Talent",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Requis",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      }
+    },
+    "qps": {
+      "arabic": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "أبلغ عن",
+          "tooltip_reset": "إعادة تعيين",
+          "tooltip_save": "حفظ"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "صف مدرسي",
+          "competency": "كفاءة",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "report_list": "قائمة تقرير",
+          "student": "طالب علم",
+          "student_search": "طالب البحث"
+        },
+        "class": {
+          "gender": "جنس",
+          "grade": "درجة",
+          "student": "طالب علم",
+          "tooltip_link": "انقر هنا لعرض درجات الطلاب"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "الى الخلف",
+          "role": "Role",
+          "save": "حفظ",
+          "show_all_owner": "عرض الكل",
+          "show_inactive": "إظهار غير نشط"
+        },
+        "competency": {
+          "comment": "تعليق",
+          "header_graph": "نتيجة",
+          "header_selection": "حدد الكفاءة",
+          "level1": "كفاءة",
+          "level2": "عنوان",
+          "level3": "الفرعي الاختصاص",
+          "level4": "عنصر من عناصر الكفاءة الفرعية",
+          "level5": "العنصر الفرعي للالكفاءة الفرعية",
+          "search_placeholder": "4 أحرف على الأقل",
+          "tab_graph": "نتيجة",
+          "tab_selection": "اختيار"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "هل تريد الاستمرار؟",
+          "no": "لا",
+          "ok": "OK",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "تؤكد",
+          "title_info": "Information",
+          "yes": "نعم فعلا"
+        },
+        "landing": {
+          "dashboards": "لوحات",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "لوحات",
+          "data_entry": "إدخال البيانات تقييم",
+          "data_entry_tooltip":
+            "إدخال البيانات والوصول إلى منطقة وضعت تقديرات أدوات",
+          "reports": "تقارير",
+          "reports_tooltip": "تقارير",
+          "settings": "إعدادات",
+          "settings_tooltip": "إعدادات",
+          "student_search": "معلومات الطالب البحث",
+          "student_search_tooltip":
+            "الحصول على جميع المعلومات الطالب من خلال بحث طالب على حدة"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "الى الخلف",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "reset": "إعادة تعيين",
+          "save": "حفظ"
+        },
+        "profile": {
+          "profile_report": "تقارير الملف الشخصي",
+          "search_label": "اسم العائلة، الاسم الأول البحث",
+          "search_label_with_oen": "اسم العائلة، الاسم الأول البحث",
+          "student": "طالب علم"
+        },
+        "report": {
+          "report": "أبلغ عن",
+          "report_found": " مجموع التقارير وجدت"
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "تقدير",
+          "color_rule": "Color Business Rules",
+          "self": "إعدادات",
+          "sub_assessment": "تقييم الفرعي",
+          "sub_assessment_item": "عنصر التقييم الفرعي",
+          "subassessment_class": "Sub-Assessment Class",
+          "subassessment_grade": "Sub-Assessment Grade"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(الكل)",
+          "assessment": "تقدير",
+          "class": "صف مدرسي",
+          "grade": "درجة",
+          "school": "مدرسة",
+          "sub_assessment": "تقييم الفرعي",
+          "teacher": "مدرس"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      },
+      "english": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "Report",
+          "tooltip_reset": "Reset",
+          "tooltip_save": "Save"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "Class",
+          "competency": "Competency",
+          "home": "Home",
+          "report": "Report",
+          "report_list": "Report List",
+          "student": "Student",
+          "student_search": "Student Search"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Grade",
+          "student": "Student",
+          "tooltip_link": "click here to show student scores"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Back",
+          "role": "Role",
+          "save": "Save",
+          "show_all_owner": "Show All",
+          "show_inactive": "Show Inactive"
+        },
+        "competency": {
+          "comment": "Comment",
+          "header_graph": "Result",
+          "header_selection": "Select Competency",
+          "level1": "Compétence",
+          "level2": "Rubrique",
+          "level3": "Sous-Compétence",
+          "level4": "Elément de la sous-compétence",
+          "level5": "Sous-élément de la sous-compétence",
+          "search_placeholder": "At least4 characters",
+          "tab_graph": "Result",
+          "tab_selection": "Selection"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "Do you want to continue?",
+          "no": "No",
+          "ok": "Ok",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "Confirm",
+          "title_info": "Information",
+          "yes": "Yes"
+        },
+        "landing": {
+          "dashboards": "Dashboards",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Dashboard",
+          "data_entry": "Assessment Data Entry",
+          "data_entry_tooltip":
+            "Data entry and access to district developed assessments tools",
+          "reports": "Reports",
+          "reports_tooltip": "Reports",
+          "settings": "Assessment Settings",
+          "settings_tooltip": "Assessment Settings",
+          "student_search": "Student Information Search",
+          "student_search_tooltip":
+            "Access to all student information through an individual student search"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Back",
+          "home": "Home",
+          "report": "Report",
+          "reset": "Reset",
+          "save": "Save"
+        },
+        "profile": {
+          "profile_report": "Profile Reports",
+          "search_label": "Lastname, Firstname search",
+          "search_label_with_oen": "Lastname, Firstname, OEN search",
+          "student": "Student"
+        },
+        "report": {
+          "report": "Report",
+          "report_found": "Total reports found: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "Assessment",
+          "color_rule": "Color Business Rules",
+          "self": "Settings",
+          "sub_assessment": "Sub-Assessment",
+          "sub_assessment_item": "Question",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Grades"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(All)",
+          "assessment": "Assessment",
+          "class": "Class",
+          "grade": "Grade",
+          "school": "School",
+          "sub_assessment": "Sub-Assessment",
+          "teacher": "Teacher"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Require a number greater than0"
+        }
+      },
+      "french": {
+        "actionbar": {
+          "tooltip_back": "Retour",
+          "tooltip_delete": "Effacer",
+          "tooltip_report": "Rapport",
+          "tooltip_reset": "Remonter",
+          "tooltip_save": "sauver"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Sujet",
+          "code": "Code sujets",
+          "grid_view": "Affichage par étudiant format grille",
+          "name": "Sujet",
+          "no_parnet": "Pas de parent",
+          "order": "Tri",
+          "parnet": "Parent",
+          "standard_view": "Affichage par étudiant standard",
+          "student_view": "Affichage par étudiant"
+        },
+        "breadcrumb": {
+          "class": "Classe",
+          "home": "Accueil",
+          "report": "Rapport",
+          "report_list": "Liste des rapports",
+          "student": "Élève",
+          "student_search": "Rechercher un élève"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Niveau",
+          "student": "Élève",
+          "tooltip_link": "Cliquez ici pour afficher les notes des élèves"
+        },
+        "color_rule": {
+          "color": "Couleur",
+          "color_business_rules": "Règles des couleurs",
+          "end_date": "Date Fin",
+          "expression": "Expression",
+          "grade": "Niveau",
+          "start_date": "Date Début",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Valeur1",
+          "value_2": "Valeur2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Retour",
+          "role": "Rôle",
+          "save": "Sauvegarder",
+          "show_all_owner": "Afficher Tout",
+          "show_inactive": "Afficher Inactif"
+        },
+        "competency": {
+          "comment": "Commentaire",
+          "header_graph": "Compétences associées",
+          "header_selection": "Sélectionnez une compétence",
+          "level1": "Domaine",
+          "level2": "Compétence",
+          "level3": "Élément de compétence",
+          "level4": "Sous-élément de compétence",
+          "level5": "Item",
+          "search_placeholder": "Au moins4 caractères",
+          "tab_graph": "Compétences associées",
+          "tab_selection": "Sélection"
+        },
+        "complexity": {
+          "average": "Moyen",
+          "high": "Élevé",
+          "simple": "Faible",
+          "very_high": "Très élevé"
+        },
+        "dialog": {
+          "cancel": "Annuler",
+          "delete_fail": "Impossible de supprimer",
+          "delete_success": "Supprimé avec succès",
+          "failed_get_data": "Impossible d'obtenir des données",
+          "leave_warning":
+            "AVERTISSEMENT: Vos changements ne seront pas sauvegardés. Veuillez appuyer sur Annuler sur ce message et sauvegarder vos modifications. Sinon, cliquer sur OK pour annuler ces changements.",
+          "message_continue": "Voulez-vous continuer?",
+          "no": "Non",
+          "ok": "OK",
+          "save": "Sauvegarder",
+          "save_fail": "Échec de l'enregistrement",
+          "save_success": "Sauvegarde réussie",
+          "title_confirm": "Confirmer",
+          "title_info": "Information",
+          "yes": "Oui"
+        },
+        "landing": {
+          "dashboards": "Tableaux de bords",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Tableaux de bords",
+          "data_entry": "Système d'Évaluation des Étudiants",
+          "data_entry_tooltip":
+            "Sytème permettant la saisie de résultats sur des activités ouvertes",
+          "reports": "Rapports",
+          "reports_tooltip": "Rapports",
+          "settings": "Paramètres",
+          "settings_tooltip": "Paramètres",
+          "student_search": "Profil Élève",
+          "student_search_tooltip":
+            "Accès à toutes les informations sur le profil des élèves grâce à une recherche par nom et prénom"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Arrière",
+          "home": "Accueil",
+          "report": "Rapport",
+          "reset": "Réinitialiser",
+          "save": "sauvegarder"
+        },
+        "profile": {
+          "profile_report": "Rapports du profil de l’élève",
+          "search_label": "Recherchez par Nom, Prénom",
+          "search_label_with_oen": "Recherchez par Nom, Prénom ou NISO",
+          "student": "Élève"
+        },
+        "report": {
+          "report": "Rapport",
+          "report_found": "Total des rapports trouvés: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "Principal",
+          "school_admin": "Admin de l'école",
+          "student": "Étudiant",
+          "system_admin": "Administrateur système",
+          "teacher": "Enseignant"
+        },
+        "selection": {
+          "between": "Entre",
+          "equal": "Égal (=)",
+          "larger_than": "Plus Grand (>)",
+          "less_than": "Plus Petit (<)"
+        },
+        "settings": {
+          "assessment": "Sujets",
+          "color_rule": "Couleurs",
+          "competency": "Compétence",
+          "self": "Paramètres",
+          "sub_assessment": "Activité Ouverte",
+          "sub_assessment_item": "Compétence / Talent",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Niveau"
+        },
+        "student": { "activity": "Activité" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Permettre plus qu'une évaluation par étudiant",
+          "assign_to_student": "Assignations",
+          "assignment": "Assignations, étudiants",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "Date Fin",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "owner": "Propriétaire",
+          "period": "Période",
+          "role": "Rôle",
+          "select_all": "Tout sélectionner",
+          "start_date": "Date Début",
+          "status": "État",
+          "sub_assessment": "Activités Ouvertest",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(Tout)",
+          "assessment": "Sujets",
+          "class": "Classe",
+          "grade": "Niveau",
+          "school": "École",
+          "sub_assessment": "Activité Ouverte",
+          "teacher": "Professeur"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Niveau de complexité",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "sub_assessment_item": "Compétence / Talent",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Requis",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      }
+    },
+    "sd23": {
+      "arabic": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "أبلغ عن",
+          "tooltip_reset": "إعادة تعيين",
+          "tooltip_save": "حفظ"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "صف مدرسي",
+          "competency": "كفاءة",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "report_list": "قائمة تقرير",
+          "student": "طالب علم",
+          "student_search": "طالب البحث"
+        },
+        "class": {
+          "gender": "جنس",
+          "grade": "درجة",
+          "student": "طالب علم",
+          "tooltip_link": "انقر هنا لعرض درجات الطلاب"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "الى الخلف",
+          "role": "Role",
+          "save": "حفظ",
+          "show_all_owner": "عرض الكل",
+          "show_inactive": "إظهار غير نشط"
+        },
+        "competency": {
+          "comment": "تعليق",
+          "header_graph": "نتيجة",
+          "header_selection": "حدد الكفاءة",
+          "level1": "كفاءة",
+          "level2": "عنوان",
+          "level3": "الفرعي الاختصاص",
+          "level4": "عنصر من عناصر الكفاءة الفرعية",
+          "level5": "العنصر الفرعي للالكفاءة الفرعية",
+          "search_placeholder": "4 أحرف على الأقل",
+          "tab_graph": "نتيجة",
+          "tab_selection": "اختيار"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "هل تريد الاستمرار؟",
+          "no": "لا",
+          "ok": "OK",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "تؤكد",
+          "title_info": "Information",
+          "yes": "نعم فعلا"
+        },
+        "landing": {
+          "dashboards": "لوحات",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "لوحات",
+          "data_entry": "إدخال البيانات تقييم",
+          "data_entry_tooltip":
+            "إدخال البيانات والوصول إلى منطقة وضعت تقديرات أدوات",
+          "reports": "تقارير",
+          "reports_tooltip": "تقارير",
+          "settings": "إعدادات",
+          "settings_tooltip": "إعدادات",
+          "student_search": "معلومات الطالب البحث",
+          "student_search_tooltip":
+            "الحصول على جميع المعلومات الطالب من خلال بحث طالب على حدة"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "الى الخلف",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "reset": "إعادة تعيين",
+          "save": "حفظ"
+        },
+        "profile": {
+          "profile_report": "تقارير الملف الشخصي",
+          "search_label": "اسم العائلة، الاسم الأول البحث",
+          "search_label_with_oen": "اسم العائلة، الاسم الأول البحث",
+          "student": "طالب علم"
+        },
+        "report": {
+          "report": "أبلغ عن",
+          "report_found": " مجموع التقارير وجدت"
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "تقدير",
+          "color_rule": "Color Business Rules",
+          "self": "إعدادات",
+          "sub_assessment": "تقييم الفرعي",
+          "sub_assessment_item": "عنصر التقييم الفرعي",
+          "subassessment_class": "Sub-Assessment Class",
+          "subassessment_grade": "Sub-Assessment Grade"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(الكل)",
+          "assessment": "تقدير",
+          "class": "صف مدرسي",
+          "grade": "درجة",
+          "school": "مدرسة",
+          "sub_assessment": "تقييم الفرعي",
+          "teacher": "مدرس"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      },
+      "english": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "Report",
+          "tooltip_reset": "Reset",
+          "tooltip_save": "Save"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "Class",
+          "competency": "Competency",
+          "home": "Home",
+          "report": "Report",
+          "report_list": "Report List",
+          "student": "Student",
+          "student_search": "Student Search"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Grade",
+          "student": "Student",
+          "tooltip_link": "click here to show student scores"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Back",
+          "role": "Role",
+          "save": "Save",
+          "show_all_owner": "Show All",
+          "show_inactive": "Show Inactive"
+        },
+        "competency": {
+          "comment": "Comment",
+          "header_graph": "Result",
+          "header_selection": "Select Competency",
+          "level1": "Compétence",
+          "level2": "Rubrique",
+          "level3": "Sous-Compétence",
+          "level4": "Elément de la sous-compétence",
+          "level5": "Sous-élément de la sous-compétence",
+          "search_placeholder": "At least4 characters",
+          "tab_graph": "Result",
+          "tab_selection": "Selection"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "Do you want to continue?",
+          "no": "No",
+          "ok": "Ok",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "Confirm",
+          "title_info": "Information",
+          "yes": "Yes"
+        },
+        "landing": {
+          "dashboards": "Dashboards",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Dashboard",
+          "data_entry": "Assessment Data Entry",
+          "data_entry_tooltip":
+            "Data entry and access to district developed assessments tools",
+          "reports": "Reports",
+          "reports_tooltip": "Reports",
+          "settings": "Assessment Settings",
+          "settings_tooltip": "Assessment Settings",
+          "student_search": "Student Information Search",
+          "student_search_tooltip":
+            "Access to all student information through an individual student search"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Back",
+          "home": "Home",
+          "report": "Report",
+          "reset": "Reset",
+          "save": "Save"
+        },
+        "profile": {
+          "profile_report": "Profile Reports",
+          "search_label": "Lastname, Firstname search",
+          "search_label_with_oen": "Lastname, Firstname, OEN search",
+          "student": "Student"
+        },
+        "report": {
+          "report": "Report",
+          "report_found": "Total reports found: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "Assessment",
+          "color_rule": "Color Business Rules",
+          "self": "Settings",
+          "sub_assessment": "Sub-Assessment",
+          "sub_assessment_item": "Question",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Grades"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(All)",
+          "assessment": "Assessment",
+          "class": "Class",
+          "grade": "Grade",
+          "school": "School",
+          "sub_assessment": "Sub-Assessment",
+          "teacher": "Teacher"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Require a number greater than0"
+        }
+      },
+      "french": {
+        "actionbar": {
+          "tooltip_back": "Retour",
+          "tooltip_delete": "Effacer",
+          "tooltip_report": "Rapport",
+          "tooltip_reset": "Remonter",
+          "tooltip_save": "sauver"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Sujet",
+          "code": "Code sujets",
+          "grid_view": "Affichage par étudiant format grille",
+          "name": "Sujet",
+          "no_parnet": "Pas de parent",
+          "order": "Tri",
+          "parnet": "Parent",
+          "standard_view": "Affichage par étudiant standard",
+          "student_view": "Affichage par étudiant"
+        },
+        "breadcrumb": {
+          "class": "Classe",
+          "home": "Accueil",
+          "report": "Rapport",
+          "report_list": "Liste des rapports",
+          "student": "Élève",
+          "student_search": "Rechercher un élève"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Niveau",
+          "student": "Élève",
+          "tooltip_link": "Cliquez ici pour afficher les notes des élèves"
+        },
+        "color_rule": {
+          "color": "Couleur",
+          "color_business_rules": "Règles des couleurs",
+          "end_date": "Date Fin",
+          "expression": "Expression",
+          "grade": "Niveau",
+          "start_date": "Date Début",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Valeur1",
+          "value_2": "Valeur2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Retour",
+          "role": "Rôle",
+          "save": "Sauvegarder",
+          "show_all_owner": "Afficher Tout",
+          "show_inactive": "Afficher Inactif"
+        },
+        "competency": {
+          "comment": "Commentaire",
+          "header_graph": "Compétences associées",
+          "header_selection": "Sélectionnez une compétence",
+          "level1": "Domaine",
+          "level2": "Compétence",
+          "level3": "Élément de compétence",
+          "level4": "Sous-élément de compétence",
+          "level5": "Item",
+          "search_placeholder": "Au moins4 caractères",
+          "tab_graph": "Compétences associées",
+          "tab_selection": "Sélection"
+        },
+        "complexity": {
+          "average": "Moyen",
+          "high": "Élevé",
+          "simple": "Faible",
+          "very_high": "Très élevé"
+        },
+        "dialog": {
+          "cancel": "Annuler",
+          "delete_fail": "Impossible de supprimer",
+          "delete_success": "Supprimé avec succès",
+          "failed_get_data": "Impossible d'obtenir des données",
+          "leave_warning":
+            "AVERTISSEMENT: Vos changements ne seront pas sauvegardés. Veuillez appuyer sur Annuler sur ce message et sauvegarder vos modifications. Sinon, cliquer sur OK pour annuler ces changements.",
+          "message_continue": "Voulez-vous continuer?",
+          "no": "Non",
+          "ok": "OK",
+          "save": "Sauvegarder",
+          "save_fail": "Échec de l'enregistrement",
+          "save_success": "Sauvegarde réussie",
+          "title_confirm": "Confirmer",
+          "title_info": "Information",
+          "yes": "Oui"
+        },
+        "landing": {
+          "dashboards": "Tableaux de bords",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Tableaux de bords",
+          "data_entry": "Système d'Évaluation des Étudiants",
+          "data_entry_tooltip":
+            "Sytème permettant la saisie de résultats sur des activités ouvertes",
+          "reports": "Rapports",
+          "reports_tooltip": "Rapports",
+          "settings": "Paramètres",
+          "settings_tooltip": "Paramètres",
+          "student_search": "Profil Élève",
+          "student_search_tooltip":
+            "Accès à toutes les informations sur le profil des élèves grâce à une recherche par nom et prénom"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Arrière",
+          "home": "Accueil",
+          "report": "Rapport",
+          "reset": "Réinitialiser",
+          "save": "sauvegarder"
+        },
+        "profile": {
+          "profile_report": "Rapports du profil de l’élève",
+          "search_label": "Recherchez par Nom, Prénom",
+          "search_label_with_oen": "Recherchez par Nom, Prénom ou NISO",
+          "student": "Élève"
+        },
+        "report": {
+          "report": "Rapport",
+          "report_found": "Total des rapports trouvés: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "Principal",
+          "school_admin": "Admin de l'école",
+          "student": "Étudiant",
+          "system_admin": "Administrateur système",
+          "teacher": "Enseignant"
+        },
+        "selection": {
+          "between": "Entre",
+          "equal": "Égal (=)",
+          "larger_than": "Plus Grand (>)",
+          "less_than": "Plus Petit (<)"
+        },
+        "settings": {
+          "assessment": "Sujets",
+          "color_rule": "Couleurs",
+          "competency": "Compétence",
+          "self": "Paramètres",
+          "sub_assessment": "Activité Ouverte",
+          "sub_assessment_item": "Compétence / Talent",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Niveau"
+        },
+        "student": { "activity": "Activité" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Permettre plus qu'une évaluation par étudiant",
+          "assign_to_student": "Assignations",
+          "assignment": "Assignations, étudiants",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "Date Fin",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "owner": "Propriétaire",
+          "period": "Période",
+          "role": "Rôle",
+          "select_all": "Tout sélectionner",
+          "start_date": "Date Début",
+          "status": "État",
+          "sub_assessment": "Activités Ouvertest",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(Tout)",
+          "assessment": "Sujets",
+          "class": "Classe",
+          "grade": "Niveau",
+          "school": "École",
+          "sub_assessment": "Activité Ouverte",
+          "teacher": "Professeur"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Niveau de complexité",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "sub_assessment_item": "Compétence / Talent",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Requis",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      }
+    },
+    "tvdsb": {
+      "arabic": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "أبلغ عن",
+          "tooltip_reset": "إعادة تعيين",
+          "tooltip_save": "حفظ"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "صف مدرسي",
+          "competency": "كفاءة",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "report_list": "قائمة تقرير",
+          "student": "طالب علم",
+          "student_search": "طالب البحث"
+        },
+        "class": {
+          "gender": "جنس",
+          "grade": "درجة",
+          "student": "طالب علم",
+          "tooltip_link": "انقر هنا لعرض درجات الطلاب"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "الى الخلف",
+          "role": "Role",
+          "save": "حفظ",
+          "show_all_owner": "عرض الكل",
+          "show_inactive": "إظهار غير نشط"
+        },
+        "competency": {
+          "comment": "تعليق",
+          "header_graph": "نتيجة",
+          "header_selection": "حدد الكفاءة",
+          "level1": "كفاءة",
+          "level2": "عنوان",
+          "level3": "الفرعي الاختصاص",
+          "level4": "عنصر من عناصر الكفاءة الفرعية",
+          "level5": "العنصر الفرعي للالكفاءة الفرعية",
+          "search_placeholder": "4 أحرف على الأقل",
+          "tab_graph": "نتيجة",
+          "tab_selection": "اختيار"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "هل تريد الاستمرار؟",
+          "no": "لا",
+          "ok": "OK",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "تؤكد",
+          "title_info": "Information",
+          "yes": "نعم فعلا"
+        },
+        "landing": {
+          "dashboards": "لوحات",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "لوحات",
+          "data_entry": "إدخال البيانات تقييم",
+          "data_entry_tooltip":
+            "إدخال البيانات والوصول إلى منطقة وضعت تقديرات أدوات",
+          "reports": "تقارير",
+          "reports_tooltip": "تقارير",
+          "settings": "إعدادات",
+          "settings_tooltip": "إعدادات",
+          "student_search": "معلومات الطالب البحث",
+          "student_search_tooltip":
+            "الحصول على جميع المعلومات الطالب من خلال بحث طالب على حدة"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "الى الخلف",
+          "home": "الصفحة الرئيسية",
+          "report": "أبلغ عن",
+          "reset": "إعادة تعيين",
+          "save": "حفظ"
+        },
+        "profile": {
+          "profile_report": "تقارير الملف الشخصي",
+          "search_label": "اسم العائلة، الاسم الأول البحث",
+          "search_label_with_oen": "اسم العائلة، الاسم الأول البحث",
+          "student": "طالب علم"
+        },
+        "report": {
+          "report": "أبلغ عن",
+          "report_found": " مجموع التقارير وجدت"
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "تقدير",
+          "color_rule": "Color Business Rules",
+          "self": "إعدادات",
+          "sub_assessment": "تقييم الفرعي",
+          "sub_assessment_item": "عنصر التقييم الفرعي",
+          "subassessment_class": "Sub-Assessment Class",
+          "subassessment_grade": "Sub-Assessment Grade"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(الكل)",
+          "assessment": "تقدير",
+          "class": "صف مدرسي",
+          "grade": "درجة",
+          "school": "مدرسة",
+          "sub_assessment": "تقييم الفرعي",
+          "teacher": "مدرس"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      },
+      "english": {
+        "actionbar": {
+          "tooltip_back": "Back",
+          "tooltip_delete": "Delete",
+          "tooltip_report": "Report",
+          "tooltip_reset": "Reset",
+          "tooltip_save": "Save"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Assessment",
+          "code": "Code",
+          "grid_view": "Grid student view",
+          "name": "Name",
+          "no_parnet": "NoParent",
+          "order": "Order",
+          "parnet": "Parent",
+          "standard_view": "Standard student view",
+          "student_view": "Student View"
+        },
+        "breadcrumb": {
+          "class": "Class",
+          "competency": "Competency",
+          "home": "Home",
+          "report": "Report",
+          "report_list": "Report List",
+          "student": "Student",
+          "student_search": "Student Search"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Grade",
+          "student": "Student",
+          "tooltip_link": "click here to show student scores"
+        },
+        "color_rule": {
+          "color": "Color",
+          "color_business_rules": "Color Business Rules",
+          "end_date": "End Date",
+          "expression": "Expression",
+          "grade": "Grade",
+          "start_date": "Start Date",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Value1",
+          "value_2": "Value2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Back",
+          "role": "Role",
+          "save": "Save",
+          "show_all_owner": "Show All",
+          "show_inactive": "Show Inactive"
+        },
+        "competency": {
+          "comment": "Comment",
+          "header_graph": "Result",
+          "header_selection": "Select Competency",
+          "level1": "Compétence",
+          "level2": "Rubrique",
+          "level3": "Sous-Compétence",
+          "level4": "Elément de la sous-compétence",
+          "level5": "Sous-élément de la sous-compétence",
+          "search_placeholder": "At least4 characters",
+          "tab_graph": "Result",
+          "tab_selection": "Selection"
+        },
+        "complexity": {
+          "average": "Average",
+          "high": "High",
+          "simple": "Simple",
+          "very_high": "Very high"
+        },
+        "dialog": {
+          "cancel": "Cancel",
+          "delete_fail": "Failed to delete",
+          "delete_success": "Deleted successfully",
+          "failed_get_data": "Failed to get data",
+          "leave_warning":
+            "WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.",
+          "message_continue": "Do you want to continue?",
+          "no": "No",
+          "ok": "Ok",
+          "save": "Save",
+          "save_fail": "Failed to save",
+          "save_success": "Saved successfully",
+          "title_confirm": "Confirm",
+          "title_info": "Information",
+          "yes": "Yes"
+        },
+        "landing": {
+          "dashboards": "Dashboards",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Dashboard",
+          "data_entry": "Assessment Data Entry",
+          "data_entry_tooltip":
+            "Data entry and access to district developed assessments tools",
+          "reports": "Reports",
+          "reports_tooltip": "Reports",
+          "settings": "Assessment Settings",
+          "settings_tooltip": "Assessment Settings",
+          "student_search": "Student Information Search",
+          "student_search_tooltip":
+            "Access to all student information through an individual student search"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Back",
+          "home": "Home",
+          "report": "Report",
+          "reset": "Reset",
+          "save": "Save"
+        },
+        "profile": {
+          "profile_report": "Profile Reports",
+          "search_label": "Lastname, Firstname search",
+          "search_label_with_oen": "Lastname, Firstname, OEN search",
+          "student": "Student"
+        },
+        "report": {
+          "report": "Report",
+          "report_found": "Total reports found: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "principal",
+          "school_admin": "School Admin",
+          "student": "Student",
+          "system_admin": "System Admin",
+          "teacher": "Teacher"
+        },
+        "selection": {
+          "between": "Between",
+          "equal": "Equal (=)",
+          "larger_than": "Larger Than (>)",
+          "less_than": "Less Than (<)"
+        },
+        "settings": {
+          "assessment": "Assessment",
+          "color_rule": "Color Business Rules",
+          "self": "Settings",
+          "sub_assessment": "Sub-Assessment",
+          "sub_assessment_item": "Question",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Grades"
+        },
+        "student": { "activity": "Activity" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Allow multiple sub-assessments per student",
+          "assign_to_student": "Assign sub assessment to specific student",
+          "assignment": "Student Assignment",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "End Date",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "owner": "Owner",
+          "period": "Period",
+          "role": "Role",
+          "select_all": "Select All",
+          "start_date": "Start Date",
+          "status": "Status",
+          "sub_assessment": "Sub-Assessment",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(All)",
+          "assessment": "Assessment",
+          "class": "Class",
+          "grade": "Grade",
+          "school": "School",
+          "sub_assessment": "Sub-Assessment",
+          "teacher": "Teacher"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Complexity",
+          "grade": "Grade",
+          "is_active": "Is Active",
+          "name": "Name",
+          "order": "Order",
+          "sub_assessment_item": "Question",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Required",
+          "larger_than_zero": "Require a number greater than0"
+        }
+      },
+      "french": {
+        "actionbar": {
+          "tooltip_back": "Retour",
+          "tooltip_delete": "Effacer",
+          "tooltip_report": "Rapport",
+          "tooltip_reset": "Remonter",
+          "tooltip_save": "sauver"
+        },
+        "assessment": {
+          "active": "Active",
+          "assessment": "Sujet",
+          "code": "Code sujets",
+          "grid_view": "Affichage par étudiant format grille",
+          "name": "Sujet",
+          "no_parnet": "Pas de parent",
+          "order": "Tri",
+          "parnet": "Parent",
+          "standard_view": "Affichage par étudiant standard",
+          "student_view": "Affichage par étudiant"
+        },
+        "breadcrumb": {
+          "class": "Classe",
+          "home": "Accueil",
+          "report": "Rapport",
+          "report_list": "Liste des rapports",
+          "student": "Élève",
+          "student_search": "Rechercher un élève"
+        },
+        "class": {
+          "gender": "M/F",
+          "grade": "Niveau",
+          "student": "Élève",
+          "tooltip_link": "Cliquez ici pour afficher les notes des élèves"
+        },
+        "color_rule": {
+          "color": "Couleur",
+          "color_business_rules": "Règles des couleurs",
+          "end_date": "Date Fin",
+          "expression": "Expression",
+          "grade": "Niveau",
+          "start_date": "Date Début",
+          "val_1": "Val.1",
+          "val_2": "Val.2",
+          "value_1": "Valeur1",
+          "value_2": "Valeur2"
+        },
+        "common": {
+          "ADD_COMMENT_BANK": "potential addition to the comment bank",
+          "COMMENT_BANK": "comment bank",
+          "back": "Retour",
+          "role": "Rôle",
+          "save": "Sauvegarder",
+          "show_all_owner": "Afficher Tout",
+          "show_inactive": "Afficher Inactif"
+        },
+        "competency": {
+          "comment": "Commentaire",
+          "header_graph": "Compétences associées",
+          "header_selection": "Sélectionnez une compétence",
+          "level1": "Domaine",
+          "level2": "Compétence",
+          "level3": "Élément de compétence",
+          "level4": "Sous-élément de compétence",
+          "level5": "Item",
+          "search_placeholder": "Au moins4 caractères",
+          "tab_graph": "Compétences associées",
+          "tab_selection": "Sélection"
+        },
+        "complexity": {
+          "average": "Moyen",
+          "high": "Élevé",
+          "simple": "Faible",
+          "very_high": "Très élevé"
+        },
+        "dialog": {
+          "cancel": "Annuler",
+          "delete_fail": "Impossible de supprimer",
+          "delete_success": "Supprimé avec succès",
+          "failed_get_data": "Impossible d'obtenir des données",
+          "leave_warning":
+            "AVERTISSEMENT: Vos changements ne seront pas sauvegardés. Veuillez appuyer sur Annuler sur ce message et sauvegarder vos modifications. Sinon, cliquer sur OK pour annuler ces changements.",
+          "message_continue": "Voulez-vous continuer?",
+          "no": "Non",
+          "ok": "OK",
+          "save": "Sauvegarder",
+          "save_fail": "Échec de l'enregistrement",
+          "save_success": "Sauvegarde réussie",
+          "title_confirm": "Confirmer",
+          "title_info": "Information",
+          "yes": "Oui"
+        },
+        "landing": {
+          "dashboards": "Tableaux de bords",
+          "dashboards_district": "District Dashboards",
+          "dashboards_district_tooltip": "District Dashboard",
+          "dashboards_tooltip": "Tableaux de bords",
+          "data_entry": "Système d'Évaluation des Étudiants",
+          "data_entry_tooltip":
+            "Sytème permettant la saisie de résultats sur des activités ouvertes",
+          "reports": "Rapports",
+          "reports_tooltip": "Rapports",
+          "settings": "Paramètres",
+          "settings_tooltip": "Paramètres",
+          "student_search": "Profil Élève",
+          "student_search_tooltip":
+            "Accès à toutes les informations sur le profil des élèves grâce à une recherche par nom et prénom"
+        },
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Arrière",
+          "home": "Accueil",
+          "report": "Rapport",
+          "reset": "Réinitialiser",
+          "save": "sauvegarder"
+        },
+        "profile": {
+          "profile_report": "Rapports du profil de l’élève",
+          "search_label": "Recherchez par Nom, Prénom",
+          "search_label_with_oen": "Recherchez par Nom, Prénom ou NISO",
+          "student": "Élève"
+        },
+        "report": {
+          "report": "Rapport",
+          "report_found": "Total des rapports trouvés: "
+        },
+        "rolename": {
+          "parent": "Parent",
+          "principal": "Principal",
+          "school_admin": "Admin de l'école",
+          "student": "Étudiant",
+          "system_admin": "Administrateur système",
+          "teacher": "Enseignant"
+        },
+        "selection": {
+          "between": "Entre",
+          "equal": "Égal (=)",
+          "larger_than": "Plus Grand (>)",
+          "less_than": "Plus Petit (<)"
+        },
+        "settings": {
+          "assessment": "Sujets",
+          "color_rule": "Couleurs",
+          "competency": "Compétence",
+          "self": "Paramètres",
+          "sub_assessment": "Activité Ouverte",
+          "sub_assessment_item": "Compétence / Talent",
+          "subassessment_class": "Classes",
+          "subassessment_grade": "Niveau"
+        },
+        "student": { "activity": "Activité" },
+        "sub_assessment": {
+          "active": "Active",
+          "allow_multi_subassessments":
+            "Permettre plus qu'une évaluation par étudiant",
+          "assign_to_student": "Assignations",
+          "assignment": "Assignations, étudiants",
+          "class": "Class",
+          "date": "Date",
+          "end_date": "Date Fin",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "owner": "Propriétaire",
+          "period": "Période",
+          "role": "Rôle",
+          "select_all": "Tout sélectionner",
+          "start_date": "Date Début",
+          "status": "État",
+          "sub_assessment": "Activités Ouvertest",
+          "type": "Type"
+        },
+        "sub_assessment_filter": {
+          "all_grade": "(Tout)",
+          "assessment": "Sujets",
+          "class": "Classe",
+          "grade": "Niveau",
+          "school": "École",
+          "sub_assessment": "Activité Ouverte",
+          "teacher": "Professeur"
+        },
+        "sub_assessment_item": {
+          "active": "Active",
+          "complexity": "Niveau de complexité",
+          "grade": "Niveau",
+          "is_active": "Active",
+          "name": "Nom",
+          "order": "Tri",
+          "sub_assessment_item": "Compétence / Talent",
+          "type": "Type"
+        },
+        "validation": {
+          "is_required": "Requis",
+          "larger_than_zero": "Le chiffre doit être plus grand que zéro"
+        }
+      }
+    }
+  }
+}

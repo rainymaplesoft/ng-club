@@ -1,0 +1,34 @@
+{
+  "i18n": {
+    "all": {
+      "english": {
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Back",
+          "home": "Home",
+          "report": "Report",
+          "reset": "Reset",
+          "save": "Save"
+        }
+      },
+      "french": {
+        "language": {
+          "arabic": "العربية",
+          "english": "English",
+          "french": "français"
+        },
+        "layout": {
+          "back": "Back",
+          "home": "Home",
+          "report": "Report",
+          "reset": "Reset",
+          "save": "Save"
+        }
+      }
+    }
+  }
+}

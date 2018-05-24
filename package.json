@@ -7,7 +7,16 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build-1": "rimraf build-folder",
+    "build-2": "md build-folder",
+    "build-3": "ng build --prod --aot=true --output-hashing none",
+    "build-4": "ng build --output-hashing none",
+    "build-5": "xcopy dist build-folder/ey",
+    "build-pro":
+      "npm run build-1 && npm run build-2 && npm run build-3 && npm run build-5",
+    "build-app":
+      "npm run build-1 && npm run build-2 && npm run build-4 && npm run build-5"
   },
   "private": true,
   "dependencies": {

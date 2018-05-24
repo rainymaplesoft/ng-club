@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Observable, fromEvent } from 'rxjs';
-import 'rxjs/add/observable/fromEvent';
 import { MatSnackBar } from '@angular/material';
 import { map, tap, filter } from 'rxjs/operators';
 

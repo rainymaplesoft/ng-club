@@ -8,7 +8,6 @@ import {
   TranslateStore
 } from '@ngx-translate/core';
 import { AngularFireService } from './services/firebase.service';
-import { Config } from './config.core';
 import {
   LocalJsonTransLoaderFactory,
   FbTransLoaderFactory,
